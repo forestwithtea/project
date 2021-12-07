@@ -80,7 +80,7 @@ def review_model_origin():
     x_test_onehot = onehot[x_test_pad]
 
     # print(x_train_onehot.shape, x_test_onehot.shape)        # (2000, 20, 2000) (2000, 20, 2000)
-    print(x_train_onehot)
+    # print(x_train_onehot)
 
     model = tf.keras.Sequential()
     model.add(tf.keras.layers.InputLayer(input_shape=[seq_length, vocab_size]))
